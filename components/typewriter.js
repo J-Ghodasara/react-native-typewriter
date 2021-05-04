@@ -101,7 +101,7 @@ export default class TypeWriter extends Component {
 
       if (delayMap) {
         delayMap.forEach(({ at, delay }) => {
-          if (at === visibleChars || (currentToken && currentToken.match(at)) ) {
+          if (at === visibleChars || currentToken.match(at)) {
             timeout += delay;
           }
         });
@@ -126,7 +126,7 @@ export default class TypeWriter extends Component {
   }
 
   clearTimeout() {
-    if (this.timeoutId != null) {
+    if (this.timeoutId) {
       clearTimeout(this.timeoutId);
       this.timeoutId = null;
     }
@@ -163,7 +163,7 @@ export default class TypeWriter extends Component {
     } = this.props;
     const { visibleChars } = this.state;
     const component = (
-      <Text {...rest}>
+      <Text allowFontScaling={false} {...rest}>
         {children}
       </Text>
     );

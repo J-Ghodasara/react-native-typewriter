@@ -1,35 +1,60 @@
 {
-  "name": "react-native-typewriter",
-  "version": "0.7.0",
-  "description": "A React Native component for creating typing effects",
-  "main": "index.js",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TaylorBriggs/react-native-typewriter.git"
+  "_from": "react-native-typewriter@^0.7.0",
+  "_id": "react-native-typewriter@0.7.0",
+  "_inBundle": false,
+  "_integrity": "sha512-lwlo8TemtZHgYH/EctYaCT5xMkgIk9ZQVyFm7qaY5b3MxveOd1v5g58oHNAkC9+vRJfdef+3dZoTJ9bM/+75/w==",
+  "_location": "/react-native-typewriter",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-typewriter@^0.7.0",
+    "name": "react-native-typewriter",
+    "escapedName": "react-native-typewriter",
+    "rawSpec": "^0.7.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.7.0"
   },
-  "keywords": [
-    "react",
-    "react-native",
-    "component",
-    "animated",
-    "typing",
-    "typewriter"
+  "_requiredBy": [
+    "/"
   ],
-  "author": "Taylor Briggs <taylor.briggs.dev@gmail.com> (https://taylor-briggs.com)",
+  "_resolved": "https://registry.npmjs.org/react-native-typewriter/-/react-native-typewriter-0.7.0.tgz",
+  "_shasum": "b370794f45366a9e9a47bdd40666198ebdce3bf2",
+  "_spec": "react-native-typewriter@^0.7.0",
+  "_where": "/Users/exa00107/Documents/Jay/Eddii/new/eddii_mobile_v2",
+  "author": {
+    "name": "Taylor Briggs",
+    "email": "taylor.briggs.dev@gmail.com",
+    "url": "https://taylor-briggs.com"
+  },
+  "bugs": {
+    "url": "https://github.com/TaylorBriggs/react-native-typewriter/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
-    "Ian Dilling <ianbjorndilling@gmail.com>",
-    "Peter Mikitsh <peter.mikitsh@gmail.com>",
-    "maxkomarychev (https://github.com/maxkomarychev)",
-    "Przemek Sobstel <przemek@sobstel.org> (http://www.sobstel.org)"
+    {
+      "name": "Ian Dilling",
+      "email": "ianbjorndilling@gmail.com"
+    },
+    {
+      "name": "Peter Mikitsh",
+      "email": "peter.mikitsh@gmail.com"
+    },
+    {
+      "name": "maxkomarychev",
+      "url": "https://github.com/maxkomarychev"
+    },
+    {
+      "name": "Przemek Sobstel",
+      "email": "przemek@sobstel.org",
+      "url": "http://www.sobstel.org"
+    }
   ],
   "dependencies": {
     "prop-types": "^15.5.7"
   },
-  "peerDependencies": {
-    "react": ">=15.4.x",
-    "react-native": ">=0.41.x"
-  },
+  "deprecated": false,
+  "description": "A React Native component for creating typing effects",
   "devDependencies": {
     "babel-eslint": "10.0.1",
     "babel-jest": "24.1.0",
@@ -49,13 +74,7 @@
     "react-dom": "16.8.3",
     "react-native": "0.62"
   },
-  "scripts": {
-    "lint": "eslint **/*.js",
-    "test": "jest"
-  },
-  "pre-commit": [
-    "lint"
-  ],
+  "homepage": "https://github.com/TaylorBriggs/react-native-typewriter#readme",
   "jest": {
     "preset": "react-native",
     "setupFilesAfterEnv": [
@@ -64,5 +83,32 @@
     "transform": {
       "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
     }
-  }
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "component",
+    "animated",
+    "typing",
+    "typewriter"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-typewriter",
+  "peerDependencies": {
+    "react": ">=15.4.x",
+    "react-native": ">=0.41.x"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaylorBriggs/react-native-typewriter.git"
+  },
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "jest"
+  },
+  "version": "0.7.0"
 }
